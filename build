@@ -1,0 +1,5 @@
+first tutos:
+clang main.c -o a -lGL -lglfw -lGLEW
+from around the 4th one:
+clang main.c -o a -lGL -lglfw -lm
+
