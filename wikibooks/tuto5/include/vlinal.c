@@ -4,7 +4,7 @@
 #include <stddef.h>
 struct vec4 { float f[4]; };
 struct mat4 { struct vec4 v[4]; };
-struct fa16 { float f[16]; };
+struct fa16 { float f[16]; };//float array, use this to send data to OpenGL, generate them from a mat4 using mat4_fa16
 
 #define ihat4 (struct vec4) { .f = {1, 0, 0, 0} }
 #define jhat4 (struct vec4) { .f = {0, 1, 0, 0} }
